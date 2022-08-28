@@ -6,7 +6,10 @@ def find_v(word=[])
     v=['a','e','i','o','u']
     word.find_index{|ch| v.include?(ch)}
 end
-
+def find_v(word=[])
+    v=['a','e','i','o','u']
+    word.find_index{|ch| v.include?(ch)}
+end
 def pig_latin(word="")
     word.downcase!
     char=word.split(//)
